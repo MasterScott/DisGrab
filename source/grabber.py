@@ -149,4 +149,3 @@ async def main():
 
 
 asyncio.run(main())
-#asyncio.run(get_profile("NzA3MDM4Njk3OTI4OTE3MDMy.X4b7HQ.YeXrxa4iBPngzJAakCLNckDBOWQ"))
